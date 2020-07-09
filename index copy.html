@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Khao Khilao</title>
+  <title>CuriousDragonz</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -22,6 +22,19 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <!-- technology partner -->
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  
+  <!------ Include the above in your HEAD tag ---------->
+  <link href="css/client_brand_style.css" rel="stylesheet">
+  
+  <!-- end -->
+
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -35,8 +48,8 @@
   <header id="header">
 
 <!-- add social media links here in future -->
-<!-- 
-    <div id="topbar">
+
+    <!-- <div id="topbar">
       <div class="container">
         <div class="social-links">
           <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -51,18 +64,19 @@
 
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <h2 class="text-light"><a href="#intro" class="scrollto"><span>Khao Khilao</span></a></h2> -->
+        <!-- <h2 class="text-light"><a href="#intro" class="scrollto"><span>CuriousDragonz</span></a></h2> -->
         <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li class="active"><a href="./index.html">Home</a></li>
-          <li class="drop-down"><a href="">Products</a>
+          <li class="active"><a href="./index.html"> Home </a></li>
+          <li><a href="#about"> About Us </a></li>
+          <li class="drop-down"><a href=""> Products </a>
             <ul>
               <li style="text-align: center;"><a href="./curiousbot.html">Curious Bot</a></li>
               <hr>
-              <li  style="text-align: center;"><a href="./khao.html">Khao Khilao</a></li>
+              <li  style="text-align: center;"><a href="./khao.html">Khao Khulke</a></li>
               <!-- <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li> -->
             </ul>
@@ -73,8 +87,6 @@
           
           <!-- <li><a href="#portfolio">Portfolio</a></li> -->
           <!-- <li><a href="#team">Team</a></li> -->
-          <li><a href="#pricing">Pricing</a></li>
-          <!-- <li><a href="#faq">FAQ's</a></li> -->
           <!-- <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -102,27 +114,21 @@
   <!--==========================
     Intro Section
   ============================-->
-  <style>
-    #intro {
-width: 100%;
-height: 100vh;
-position: relative;
-background: #f5f8fd url("./img/resteraunt.png") center top no-repeat;
-background-size: cover;
-}
-
-</style>
-  </style>
-  <section id="intro" class="clearfix" style="background-image:'./img/intro2-bg.png' center top no-repeat;">
+  <section id="intro" class="clearfix">
     <div style="padding-left: 2%;padding-right: 2%;" class="d-flex h-100">
       <div class="row justify-content-center align-self-center" style="width: 100%;">
         <div class="col-md-5 intro-info order-md-first order-last">
-          <h2><strong style="color: navy;"> Khao Khilao </strong><hr> <i style="font-weight: 100;">Making <strong><span>Diners</span> </strong>Great Again !!</i></h2>
-
+          <h2><strong style="color: navy;"> CuriousDragonz </strong><hr> 
+            <!-- <i style="font-weight: 100;">Make your Services <span>Soar</span>!!</span></i> -->
+          </h2>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
         </div> 
         <div class="col-md-6 intro-img order-md-last order-first .d-none .d-md-block .d-lg-none">
-          <center><img  style="border-radius:100%;" src="img/khao.png" alt="" class="img-fluid"></center>
-      </div>        </div>
+          <img  style="border-radius:100%;" src="img/intro2-img.png" alt="" class="img-fluid">
+        </div>
+      </div>
 
     </div>
   </section><!-- #intro -->
@@ -130,141 +136,94 @@ background-size: cover;
   <main id="main">
 
     <!--==========================
-      Services Section
+      About Us Section
     ============================-->
-    <section id="services" class="section-bg">
+    <section id="about">
+
       <div class="container">
-
-        <header class="section-header">
-          <h3>Khao Khilao</h3>
-          <p>Helping you get more delicacies cheaper than ever before  
-            <!-- <a href="#"> Know More</a> -->
-          </p>
-        </header>
-
         <div class="row">
 
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #fceef3;"><i class="ion-ios-camera" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Easier Payments</a></h4>
-              <p class="description">Make and recieve payments in seconds using simple scanning using your mobile camera</p>
-              
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
-              <h4 class="title"><a href="">Create Dedicated Customer base</a></h4>
-              <p class="description">Khao Khilao helps you get the customers that retun time and again and getting you that sweet constant sales!</p>
+          <div class="col-lg-5 col-md-6">
+            <div class="about-img">
+              <img src="img/about2-img.png" alt="">
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Expand your Chains to New Heights</a></h4>
-              <p class="description">Customers avail benifits across all your chains and hence spread the profit all across your establishments </p>
+          <div class="col-lg-7 col-md-6">
+            <div class="about-content">
+              <h2>About Us</h2>
+              <h3>We wish to bring the bleeding edge technologies to our customers doorstep!</h3>
+              <p>Working on the same old technologies again and again over the years took a toll on us. Hence, we decided to come up with something different and let you be a part of our adventure as well.</p>
+              <p> We work on the most latest and cutting edge technologies, that look nothing short of magic and use it to provide never before made solutions to our customers.</p>
+              <!-- <ul>
+                <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              </ul> -->
             </div>
           </div>
-
-          <!-- <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Easy Integrations</a></h4>
-              <p class="description">Curious Bot can integrate seamlessly over a wide variety of integrations like whatsapp, google home, alexa, facebook messanger etc.. making it easy to reach customers on the platform they are most confortable with</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
-              <h4 class="title"><a href="">Control Dashboard</a></h4>
-              <p class="description">Using Admin dashboard customers can control the data about their service information,pricing, duration and more with just few clicks!</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
-              <h4 class="title"><a href="">One minute setup</a></h4>
-              <p class="description">Just copy paste a single script in your existing website and you have Curious Bot running... No Really its that easy!!!</p>
-            </div>
-          </div> -->
-
         </div>
-
       </div>
-    </section>
-    
-    <!-- #services -->
 
+    </section><!-- #about -->
 
 
     <!--==========================
       Why Us Section
     ============================-->
-    <section id="why-us" class="wow fadeIn">
+    <!-- <section id="why-us" class="wow fadeIn">
       <div class="container-fluid">
         
         <header class="section-header">
           <h3>Why choose us?</h3>
-       <p>   Upon brainstorming a ton of ideas we came up with a solution that benefits both the customers as well as our clients.<br>
-           
-                Looking at the recent effects of Corona on the restaurant industry,
-                 we saw a dire need to create customer inflow in the industry.
-              </p>
-          <!-- <p>With 5+ Years of experience in providing Technology solutions in various fields. 
-            Our Team is more than capable to handle any challenge head on and deliver fantastic returns.</p> -->
+          <p>We help you manage risks and build confidence in your technology systems. We provide the continual delivery of superior technical support while simultaneously providing industry leading customer satisfaction and support.</p>
         </header>
 
- <!--        <div class="row">
+        <div class="row">
 
           <div class="col-lg-6">
             <div class="why-us-img">
-              <img src="img/meeting.png" height="200" width="600"  alt="" class="img-fluid" style="
-              margin-left: 246px;
-          ">
+              <img src="img/why-us.jpg" alt="" class="img-fluid">
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="why-us-content">
-              <p style="
-              margin-top: 115px;
-          "> Upon brainstorming a ton of ideas we came up with a solution that benefits both the customers as well as our clients.
-              </p>
+              <p>Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.</p>
               <p>
-                Looking at the recent effects of Corona on the restaurant industry,
-                 we saw a dire need to create customer inflow in the industry.
-              </p> -->
+                Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur
+                et temporibus. Labore est odio.
 
-              <!-- <div class="features wow bounceInUp clearfix">
+                Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat..
+              </p>
+
+              <div class="features wow bounceInUp clearfix">
                 <i class="fa fa-diamond" style="color: #f058dc;"></i>
-                <h4>Easier Payments</h4>
-                <p>Make and recieve payments in seconds using simple scanning using your mobile camera</p>
+                <h4>Corporis dolorem</h4>
+                <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>
               </div>
 
               <div class="features wow bounceInUp clearfix">
                 <i class="fa fa-object-group" style="color: #ffb774;"></i>
-                <h4>Create Dedicated Customer base</h4>
-                <p>Khao Khilao helps you get the customers that retun time and again and getting you that sweet constant sales!</p>
+                <h4>Eum ut aspernatur</h4>
+                <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>
               </div>
               
               <div class="features wow bounceInUp clearfix">
                 <i class="fa fa-language" style="color: #589af1;"></i>
-                <h4>Expand your Chains to New Heights</h4>
-                <p>Customers avail benifits across all your chains and hence spread the profit all across your establishments</p>
+                <h4>Voluptates dolores</h4>
+                <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>
               </div>
               
-            </div> 
+            </div>
 
-          </div>-->
+          </div>
 
         </div>
 
       </div>
 
-      <!-- <div class="container">
+      <div class="container">
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
@@ -289,77 +248,9 @@ background-size: cover;
   
         </div>
 
-      </div> -->
-    </section>
-
-    <!--==========================
-      Booking Section
-    ============================-->
-    <!-- <section id="call-to-action" class="wow fadeInUp">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Book your Demo ASAP!</h3>
-            <p class="cta-text"> Talk to our marketing executives to know more about how we can revolutionize your company. Book a demo and see for yourselves!! </p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="mailto:mattoo.vinamra@gmail.com">Book your demo!</a>
-          </div>
-        </div>
-
       </div>
     </section> -->
-    <!-- #call-to-action -->
 
-    <!--==========================
-      Features Section
-    ============================-->
-    <section id="features" class="section-bg">
-      <div class="container">
-
-        <div class="row feature-item">
-          <div class="col-lg-6 wow fadeInUp">
-            <img src="img/meeting.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            <h4>Increase your customer base with our voucher cashback system .</h4>
-
-            <p>
-             
-            </p>
-            <p>
-              This app will be basically a voucher system for your chain restaurant. Instead of paying by cash or card a customer can
-              add money in this app and get a voucher for that amount which he can use to pay the restaurant. he also gets an
-              additional voucher of a defined sum which he can redeem from the next day with a validity period of 1 week.
-               this creates a motive for the customer to return to your establishment again and spend more.
-               Additionally with co-workers or friends thus multiplying your customer base
-            </p>
-          </div>
-        </div>
-
-        <div class="row feature-item mt-5 pt-5">
-          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-            <img src="img/backtooffice.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-            <h4>Back to Office</h4>
-
-            <p>
-              Since most of the customers eating out, come from bachelor working demographic, and eat outside every day.
- we will propose a one-time monthly payment. restaurant chains will propose their costs and menu accordingly.
- the customer can then simply come and redeem his daily coupon and choose anything from the prescribed menu.
-            </p>
-            <p> the customer will be charged less than what he would have to pay for,if he bought individual dishes.
-This creates customer retention for an entire month.
-            </p>
-            
-          </div>
-          
-        </div>
-
-      </div>
-    </section><!-- #about -->
 
     <!--==========================
       Portfolio Section
@@ -520,7 +411,6 @@ This creates customer retention for an entire month.
     <!--==========================
       Clients Section
     ============================-->
- <!-- TODO :: add client testimonials -->
     <!-- <section id="testimonials">
       <div class="container">
 
@@ -562,7 +452,7 @@ This creates customer retention for an entire month.
                 </p>
               </div>
     
-          <div class="testimonial-item">
+              <div class="testimonial-item">
                 <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
@@ -571,7 +461,7 @@ This creates customer retention for an entire month.
                 </p>
               
               
-              </div> 
+              </div>
 
             </div>
 
@@ -781,150 +671,38 @@ This creates customer retention for an entire month.
     </section> -->
     <!-- #clients -->
 
-
-    <!--==========================
-      Pricing Section
-    ============================-->
-    <section id="pricing" class="wow fadeInUp">
-
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Pricing</h3>
-          <p>Contact our <a href="mailto:mattoo.vinamra@gmail.com ">marketing team</a> to get your quote Today!  </p>
-        </header>
-
-        <!-- <div class="row flex-items-xs-middle flex-items-xs-center"> -->
+<!-- ==========================================
+Technology partners
+========================================== -->
+<div class="container">
+  <h2>Tech Partners</h2>
+  <br>
+   <section class="customer-logos slider">
+      <div class="slide"><img src="logo/amazon-web-services-1.svg" width="200" height="100"></div>
       
-          <!-- Basic Plan  -->
-          <!-- <div class="col-xs-12 col-lg-4">
-            <div class="card">
-              <div class="card-header">
-                <h5 style="color: red;" ><strike>$200/month</strike></h5>
-                <h3 style="color: green;"><span class="currency">$</span>150<span class="period">/month</span></h3>
-              </div>
-              <div class="card-block">
-                <h4 class="card-title"> 
-                  Basic Plan
-                </h4>
-                <ul class="list-group">
-                  <li class="list-group-item">Odio animi voluptates</li>
-                  <li class="list-group-item">Inventore quisquam et</li>
-                  <li class="list-group-item">Et perspiciatis suscipit</li>
-                  <li class="list-group-item">24/7 Support System</li>
-                </ul>
-                <a href="#" class="btn">Choose Plan</a>
-              </div>
-            </div>
-          </div>
-       -->
-          <!-- Regular Plan  -->
-          <!-- <div class="col-xs-12 col-lg-4">
-            <div class="card">
-              <div class="card-header">
-                <h5 style="color: red;" ><strike>$250/month</strike></h5>
-                <h3 style="color: green;" ><span class="currency">$</span>200<span class="period">/month</span></h3>
-              </div>
-              <div class="card-block">
-                <h4 class="card-title"> 
-                  Regular Plan
-                </h4>
-                <ul class="list-group">
-                  <li class="list-group-item">Odio animi voluptates</li>
-                  <li class="list-group-item">Inventore quisquam et</li>
-                  <li class="list-group-item">Et perspiciatis suscipit</li>
-                  <li class="list-group-item">24/7 Support System</li>
-                </ul>
-                <a href="#" class="btn">Choose Plan</a>
-              </div>
-            </div>
-          </div> -->
+      <div class="slide"><img src="logo/apple.svg" width="200" height="80"></div>
+    
+      <div class="slide"><img src="logo/android.svg" width="200" height="80"></div>
       
-          <!-- Premium Plan  -->
-          <!-- <div class="col-xs-12 col-lg-4">
-            <div class="card">
-              <div class="card-header">
-                <h3><span class="currency">$</span>39<span class="period">/month</span></h3>
-              </div>
-              <div class="card-block">
-                <h4 class="card-title"> 
-                  Premium Plan
-                </h4>
-                <ul class="list-group">
-                  <li class="list-group-item">Odio animi voluptates</li>
-                  <li class="list-group-item">Inventore quisquam et</li>
-                  <li class="list-group-item">Et perspiciatis suscipit</li>
-                  <li class="list-group-item">24/7 Support System</li>
-                </ul>
-                <a href="#" class="btn">Choose Plan</a>
-              </div>
-            </div>
-          </div>
+      <div class="slide"><img src="logo/google-1-1.svg" width="200" height="100"></div>
+
+      <div class="slide"><img src="logo/flutter.svg" width="200" height="80"></div>
       
-        </div>-->
-      </div> 
+      <div class="slide"><img src="logo/google-ai-1.svg" width="200" height="100"></div>
 
-    </section><!-- #pricing -->
+      <div class="slide"><img src="logo/openai.svg" width="200" height="100"></div>
+      
+      <!-- <div class="slide"><img src=""></div>
+      <div class="slide"><img src=""></div>
+      <div class="slide"><img src=""></div>
+      <div class="slide"><img src=""></div>
+      <div class="slide"><img src=""></div> -->
+   </section>
+   <br>
+   </div>
+  <script src="js/tech_client.js"></script>
 
-    <!--==========================
-      Frequently Asked Questions Section
-    ============================-->
-    <!-- <section id="faq" class="section-bg">
-      <div class="container">
-        <header class="section-header">
-          <h3>Frequently Asked Questions</h3>
-          <p>For further queries contact our Help team <a href="mailto:mattoo.vinamra@gmail.com">here </a></p>
-        </header>
-
-        <ul id="faq-list" class="wow fadeInUp">
-          <li>
-            <a data-toggle="collapse" class="collapsed" href="#faq1">What is the pricing scheme for Curious Bot ?<i class="ion-android-remove"></i></a>
-            <div id="faq1" class="collapse" data-parent="#faq-list">
-              <p>
-                Every customer has different needs and hence require different archetectures to handle their requirements.
-                We at CuriousDragonz try to be as flexible as we can for our customers and tailor the pricing according the clients size and requirements.
-                e.g. A static pricing applying for a big company having a traffic of 1000+ hits every day will not suit a small scale company with only 100+ requests a day.
-
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed">How can Curious Bot talk like a human ?<i class="ion-android-remove"></i></a>
-            <div id="faq2" class="collapse" data-parent="#faq-list">
-              <p>
-                Curious bot uses state of the art AI algorithms to learn how to have human like interactions!
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq3" class="collapsed">How much effort will we have to take to integrate Curious Bot in our website? <i class="ion-android-remove"></i></a>
-            <div id="faq3" class="collapse" data-parent="#faq-list">
-              <p>
-                Here are CuriousDragons, we want to make things as simple as possible for our customers. We provide you with a code snippet which you just copy paste in your website and Curious Bot is ready to go !! 
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq4" class="collapsed">How can I track my interaction limit / check analytics <i class="ion-android-remove"></i></a>
-            <div id="faq4" class="collapse" data-parent="#faq-list">
-              <p>
-               Along with the Curious Bot we also provide you with a dedicated dashboard where you can view all your account details, customer analytics and alter your service information that the chatbot shows. 
-              </p>
-            </div>
-          </li>
-        </ul>
-
-      </div>
-    </section> -->
-
-
-
-    <!-- #faq -->
   </main>
-  
 
   <!--==========================
     Footer
@@ -1031,29 +809,31 @@ This creates customer retention for an entire month.
 
       </div>
     </div> -->
-    <div class="footer-top">
-    <div class="container">
-      <hr>
-      <div class="copyright footer-top">
-         <strong>CuriousDragonz<sup>&copy;</sup></strong>. All Rights Reserved
-      </div>
-    </div>
 
+    <div class="footer-top">
+      <div class="container">
+        <hr>
+        <div class="copyright footer-top">
+           <strong>CuriousDragonz<sup>&copy;</sup></strong>. All Rights Reserved
+        </div>
+      </div>
+
+  
+  
       <!-- <div class="credits">
 
         Designed by <a href="#">Vinamra Mattoo</a>
       </div> -->
 
-    </div>
   </footer>
   <!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
+  <script src="js/tech_client.js"></script>
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
@@ -1066,7 +846,6 @@ This creates customer retention for an entire month.
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
-
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 
